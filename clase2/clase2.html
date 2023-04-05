@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clase 2</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Table</h1>
+    <table>
+      <!--table row-->
+      <tr>
+        <!--table heading-->
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miércoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+      </tr>
+      <tr>
+        <!--table data-->
+        <td>Data1</td>
+        <td>Data2</td>
+        <td>Data3</td>
+        <td>Data4</td>
+        <td>Data5</td>
+      </tr>
+    </table>
+    <hr />
+
+    <h2>Formularios</h2>
+
+    <label for="nombre">Nombre: </label>
+    <input type="text" id="nombre" placeholder="Ingrese su nombre" />
+    <input type="checkbox" />
+    <br />
+
+    <label for="DNI">DNI: </label>
+    <input type="number" id="DNI" placeholder="Ingrese su DNI" />
+    <input type="radio" />
+    <br />
+
+    <label for="correo">Email: </label>
+    <input type="email" id="correo" placeholder="Ingrese su email" />
+    <input type="password" placeholder="Ingrese su contraseña" />
+    <br />
+
+    <input type="button" value="Submit" />
+    <br />
+    <label for="Color de ojos">Color de ojos: </label>
+    <input
+      type="checkbox"
+      id="Color de ojos"
+      placeholder="Marque su color de ojos"
+    />
+    <br />
+
+    <br />
+    Gusto de helado favorito:
+    <br />
+    <label for="Chocolate dark">Chocolate dark</label>
+    <input type="radio" name="gustos" id="chocolate dark" />
+    <label for="Dulce de leche">Dulce de leche</label>
+    <input type="radio" name="gustos" id="Dulce de leche" />
+    <label for="Maracuya">Maracuyá</label>
+    <input type="radio" name="gustos" id="Maracuya" />
+    <br /><br />
+
+    Jugamos?<br />
+    <select>
+      <option value="Piedra">Piedra</option>
+      <option value="Papel">Papel</option>
+      <option value="Tijera">Tijera</option>
+    </select>
+    <br />
+    
+    <label for="texto">Soy un área de texto</label><br />
+    <textarea name="" id="texto" cols="50" rows="10"></textarea><br />
+
+    <input type="submit" value="Soy un botón" />
+    <button type="submit">Soy un botón</button>
+  </body>
+</html>

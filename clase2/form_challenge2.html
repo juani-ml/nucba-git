@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Desafío 2</title>
+    <style>
+        body {
+            background-color: #282a36;
+            letter-spacing: 0.25px;
+        }
+
+        label {
+            font-family: sans-serif;
+            color: #8be9fd;
+            font-size: large;
+        }
+
+        p {
+            font-family: sans-serif;
+            color: #8be9fd;
+            font-size: large;
+            font-weight: bold;
+        }
+
+        input,
+        textarea {
+            margin-top: 7px;
+            margin-bottom: 7px;
+        }
+    </style>
+</head>
+
+<body>
+    <article>
+        <form
+            style="border: 1px solid #bd93f9; text-align: center; margin: 0 auto; padding: 10px; border-radius: 50px;">
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" placeholder="Ingrese su nombre" />
+            <br />
+
+            <label for="age">Edad: </label>
+            <input type="number" id="age" placeholder="Ingrese su edad" />
+            <br />
+
+            <label for="correo">Email: </label>
+            <input type="email" id="correo" placeholder="Ingrese su email" />
+            <input type="password" placeholder="Ingrese su contraseña" />
+            <br />
+
+            <label for="gamer" style="color:#50fa7b">Gamer? </label>
+            <input type="checkbox" id="gamer" />
+            <br />
+
+            <p>Color:</p>
+            <label for="amarillo" style="color: #f1fa8c">Amarillo</label>
+            <input type="radio" name="gustos" id="amarillo" />
+            <label for="orange" style="color: #ffb86c">Naranja</label>
+            <input type="radio" name="gustos" id="orange" />
+            <label for="red" class="icecream" style="color: #ff5555">Rojo</label>
+            <input type="radio" name="gustos" id="red" />
+            <br />
+            <p>Jugamos?</p>
+            <select>
+                <option value="Selecciona una opción" selected disabled>Selecciona una opción</option>
+                <option value="Silla">Silla</option>
+                <option value="Torta">Torta</option>
+            </select>
+            <br />
+            <br />
+            <label for="texto">Comentarios</label><br />
+            <textarea name="" id="texto" cols="25" rows="5"></textarea><br />
+
+            <input type="submit" value="Soy un botón" />
+            <button type="submit">Soy otro botón</button>
+        </form>
+    </article>
+</body>
+
+</html>
