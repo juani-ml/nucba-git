@@ -22,3 +22,5 @@
 
 ## Clase 5 - 13/5/23
 * CSS Intro
+* Basic styling
+* Basic selectors
