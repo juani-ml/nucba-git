@@ -14,3 +14,11 @@
 * Git basics
 * Bash commands basics
 * Github basics
+
+## Clase 4 - 11/4/23
+* Git branches
+* Git merge
+* Vercel
+
+## Clase 5 - 13/5/23
+* CSS Intro
