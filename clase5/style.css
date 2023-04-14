@@ -1,3 +1,37 @@
 p{
-    color: red
+    color: red;
 }
+
+.boton{
+    border-color: lightgreen;
+    color: blue;
+    background-color: lightgoldenrodyellow;
+    width: 100px;
+    height: 50px;
+    text-transform: capitalize;
+}
+
+.cajota{
+    display: flex;
+}
+.caja{
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    text-align: center;
+    border-radius:10px;
+}
+.caja-mediana{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    text-align: center;
+    border-radius:10px;
+}
+.caja-grande{
+    width: 300px;
+    height: 300px;
+    background-color: lightpink;
+    text-align: center;
+    border-radius:10px;
+} 
